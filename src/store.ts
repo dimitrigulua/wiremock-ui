@@ -1,5 +1,6 @@
 import { combineReducers } from 'redux'
 import { combineEpics } from 'redux-observable'
+import { persistedCoreReducer } from './persistedReducer';
 import {
     panesReducer,
     IPanesState,
