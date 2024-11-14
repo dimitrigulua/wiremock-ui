@@ -1,0 +1,16 @@
+[
+  {
+    "name": "QA",
+    "url": "https://mock.singularqa.uk",
+    "mappingsHaveBeenLoaded": false,
+    "isLoadingMappings": false,
+    "mappings": []
+  },
+  {
+    "name": "AWS - DEV",
+    "url": "https://mock.cp.dev.int.singular.zone",
+    "mappingsHaveBeenLoaded": false,
+    "isLoadingMappings": false,
+    "mappings": []
+  }
+]
