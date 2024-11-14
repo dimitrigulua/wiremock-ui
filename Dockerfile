@@ -1,7 +1,9 @@
-FROM node:21-alpine3.19
+FROM node:22-alpine
 
 WORKDIR /app
-RUN apk --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/v3.19/main add bash
+RUN apk add --no-cache \
+    git \
+    bash
 
 COPY *.json yarn.lock ./
 RUN yarn install
